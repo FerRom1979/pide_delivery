@@ -1,0 +1,39 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.divDots {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+.ulDots {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.ulDots > li {
+  width: auto;
+}
+.divCustomPaging {
+  color: gray;
+  font-size: 18px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.divmain {
+  text-align: center;
+  margin-top: 30px;
+}
+.slick-slider {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.slick-dots {
+  position: initial;
+}
+.slick-active {
+  border-bottom: 3px solid green;
+}
